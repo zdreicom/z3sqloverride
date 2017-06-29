@@ -12,7 +12,7 @@
 
 $EM_CONF[$_EXTKEY] = [
     'title' => 'Z3 SQL Override',
-    'description' => '',
+    'description' => 'Loads the additional SQL file ext_tables_override.sql on top of the current database scheme from ext_tables.sql.',
     'category' => 'be',
     'author' => 'Timo Poppinga',
     'author_email' => '',
