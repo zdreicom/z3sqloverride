@@ -5,7 +5,6 @@ namespace Z3\Z3sqloverride\Hooks;
 /**
  * Class Database
  *
- * @package Z3\Z3sqloverride\Hooks
  */
 class Database
 {

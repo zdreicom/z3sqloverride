@@ -1,4 +1,14 @@
 {
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://composer.typo3.org/"
+        },
+        {
+            "type": "git",
+            "url": "https://git.z3.ag/z3-public-extensions/p1136-t3build.git"
+        }
+    ], 
     "name": "z3/z3sqloverride",
     "type": "typo3-cms-extension",
     "description": "",
@@ -11,6 +21,9 @@
     ],
     "require": {
         "typo3/cms-core": "^8.7.0"
+    },
+    "require-dev": {
+        "z3/t3build": "*"
     },
     "autoload": {
         "psr-4": {
